@@ -100,11 +100,8 @@
     "react-ace": "^7.0.4",
     "react-data-table-component": "^6.2.2",
     "react-dropzone": "^10.1.8",
-<<<<<<< HEAD
     "react-hotkeys": "^2.0.0",
-=======
     "react-i18next": "^11.4.0",
->>>>>>> Added packages for internalization
     "react-icons": "^3.9.0",
     "react-image-annotate": "^1.0.15",
     "react-scripts": "^3.4.1",
