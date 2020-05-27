@@ -15,7 +15,7 @@ import usePosthog from "../../utils/use-posthog"
 import packageInfo from "../../../package.json"
 import useEventCallback from "use-event-callback"
 
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next"
 
 const useStyles = makeStyles({
   container: {
@@ -96,7 +96,7 @@ export default ({
 }) => {
   const c = useStyles()
   const posthog = usePosthog()
-  
+
   // internalization hook
   const { t, i18n } = useTranslation()
 
@@ -151,7 +151,7 @@ export default ({
               className={c.headerButton}
               href="https://github.com/OpenHumanAnnotation/universal-data-tool/releases"
             >
-              {t('Download Version')} v{newVersionAvailable}
+              {t("Download Version")} v{newVersionAvailable}
             </Button>
           ),
           !newVersionAvailable && showDownloadLink && (
@@ -226,7 +226,7 @@ export default ({
                 </Action>
                 {/* <Action>Custom Data Entry</Action> */}
                 <Action href="https://github.com/UniversalDataTool/universal-data-tool">
-                  Github {(t("repository")).toUpperCase()}
+                  Github {t("repository").toUpperCase()}
                 </Action>
                 {/* <Action href="#">
                   How to Collaborate in Real-Time with UDT
